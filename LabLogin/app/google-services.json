@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "558602204190",
+    "project_id": "fir-login-aff05",
+    "storage_bucket": "fir-login-aff05.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:558602204190:android:55533474aee5e4d1236a0f",
+        "android_client_info": {
+          "package_name": "com.thais.lablogin"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "558602204190-6qpjdlpm9mpj04rjc15hn8ido4vgjo5n.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC0epimV4G7il4EKiOuYREMrBLQE0kUxFI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "558602204190-6qpjdlpm9mpj04rjc15hn8ido4vgjo5n.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

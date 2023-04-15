@@ -67,17 +67,16 @@
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toBottomOf="@id/edemail" />
 
-    <androidx.appcompat.widget.AppCompatCheckBox
-        android:id="@+id/lembrar"
+    <ProgressBar
+        android:id="@+id/progressbar"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Lembrar"
+        android:visibility="gone"
+        app:layout_constraintTop_toBottomOf="@+id/edpass"
+        android:layout_marginTop="20dp"
         app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/edpass"
-        android:layout_marginRight="20dp"
-        android:layout_marginLeft="20dp"
-        android:layout_marginTop="20dp" />
+        app:layout_constraintRight_toRightOf="parent" />
+
 
     <com.google.android.material.button.MaterialButton
         android:id="@+id/bottao"
@@ -86,12 +85,13 @@
         android:hint="Registrar"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/lembrar"
+        app:layout_constraintTop_toBottomOf="@+id/progressbar"
         android:layout_marginRight="20dp"
         android:layout_marginLeft="20dp"
-        app:layout_goneMarginTop="20dp"
+        android:layout_marginTop="20dp"
         android:textColorHint="@color/white"
         app:cornerRadius="20dp"/>
+
 
     <TextView
         android:id="@+id/logNow"

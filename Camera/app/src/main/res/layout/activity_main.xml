@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    android:weightSum="4"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="5sp"
+        android:gravity="end">
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="Refresh"
+            android:layout_gravity="end"
+            android:background="#674FD9"
+            android:backgroundTint="#674FD9"
+            android:layout_marginRight="10sp"
+            android:textColor="@color/white"
+            android:id="@+id/refreshimgbtn"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:text="Save"
+        android:layout_gravity="end"
+        android:background="#FF5353"
+        android:backgroundTint="#FF5353"
+        android:layout_marginRight="30sp"
+        android:textColor="@color/white"
+        android:id="@+id/saveimgbtn"
+    </LinearLayout>android:layout_marginRight="10sp"
+
+
+
+
+</LinearLayout>

@@ -171,8 +171,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 Bitmap outputImage4 = fooFilter4.processFilter(inputImage4);
                 mainimg.setImageBitmap(outputImage4);
                 break;
-
-
+                
         }
 
     }

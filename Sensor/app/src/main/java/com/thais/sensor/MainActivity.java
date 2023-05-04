@@ -7,6 +7,9 @@ import android.hardware.Sensor;
 import android.hardware.SensorEvent;
 import android.hardware.SensorEventListener;
 import android.hardware.SensorManager;
+import android.media.Ringtone;
+import android.media.RingtoneManager;
+import android.net.Uri;
 import android.os.Bundle;
 import android.widget.TextView;
 import android.widget.Toast;
@@ -39,6 +42,9 @@ public class MainActivity extends AppCompatActivity implements SensorEventListen
             txtP.setText(sensorValue);
             if(sensorEvent.values[0]>0){
                 Toast.makeText(this, "O objeto está longe", Toast.LENGTH_SHORT).show();
+                Uri notification = RingtoneManager.getDefaultUri(RingtoneManager.TYPE_NOTIFICATION);
+                Ringtone r = RingtoneManager.getRingtone(getApplicationContext(), notification);
+                r.play();
             }
             else {
                 Toast.makeText(this, "O objeto está próximo", Toast.LENGTH_SHORT).show();
